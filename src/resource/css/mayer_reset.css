@@ -46,3 +46,43 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar:hover {
+	width: 7px;
+	height: 7px;
+  }
+::-webkit-scrollbar-button {
+  width: 20px;
+  height: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #b5b5b5;
+}
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #e0e0e0;
+  width: 7px;
+}
+::-webkit-scrollbar-track:active {
+  background: #bdbdbd;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
